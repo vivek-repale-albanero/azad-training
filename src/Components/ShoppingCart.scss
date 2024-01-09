@@ -1,0 +1,51 @@
+.cart {
+  width: 500px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 2rem;
+  padding: 15px;
+  .bill{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: right;
+}
+}
+
+.cartCard {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 1rem;
+  padding: 10px;
+  img {
+    width: 130px;
+  }
+  .heading{
+    font-size: 1.25rem;
+    margin-left: 1rem;
+  }
+  p,div{
+    margin-left: 20px;
+  }
+  .delete{
+    margin-top: 1.4rem;
+    background-color: red;
+    color:white;
+    // margin-left: 20px;
+
+  }
+}
+.no{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top:2rem ;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div{
+        margin-top: 1.55rem;
+    }
+}

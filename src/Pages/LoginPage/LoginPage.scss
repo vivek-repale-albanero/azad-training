@@ -1,20 +1,74 @@
-
-.loginCard{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: teal;
-    .MuiCard-root{
-        background-color: white;
-        width: 30%;
+.loginCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: teal;
+  .MuiCard-root {
+    background-color: white;
+    width: 30%;
+  }
+  .tile {
+    padding: 75px;
+    .button {
+      margin-top: 25px;
     }
-    .tile{
-        padding: 75px;
-        .button{
-            margin-top: 25px;
-        }
-    }
-    
+  }
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
+.card {
+  background-color: #f9fbf2;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-left: 10px;
+  padding-bottom: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  width: 90%;
+  margin: auto;
+  margin-top: 1.725rem;
+  gap: 1.2rem;
+  grid-template-columns: repeat(3, 1fr);
+  .btn {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+  }
+  .content {
+    margin-left: 1rem;
+  }
+}
+.main {
+  margin-top: 2rem;
+  .heading {
+    text-align: center;
+    background-color: #778DA9;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 90%;
+    margin: auto;
+    color:white;
+    font-weight: bolder;
+    border-radius: 5px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Further adjustment for even smaller screens */
+@media screen and (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}

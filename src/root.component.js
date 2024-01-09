@@ -1,18 +1,23 @@
 import React, { useMemo, useState, useEffect } from "react";
 import { Route, Switch, BrowserRouter, Redirect } from "react-router-dom";
 import { CssBaseline } from "@material-ui/core";
-
 import LoginPage from "./Pages/LoginPage/LoginPage";
+import Navbar from "./Components/Navbar";
+import { ContextProvider } from "./Components/Context";
 
 export default function Root() {
   return (
+    <ContextProvider>
+
     <BrowserRouter>
+        <Navbar/>
         <CssBaseline />
         <React.Suspense>
+                  
           <Switch>
-            <Route exact path="/">
-              <Redirect to="/auth/login" />
-            </Route>
+            <Route exact path="/" render={()=><LoginPage/>}/>
+        
+        
             <Route exact path="/auth/login" render={() => <LoginPage />} />
             {/* <Route exact path="/home" render={() => <HomePage />} />
             <Route
@@ -52,5 +57,7 @@ export default function Root() {
           </Switch>
         </React.Suspense>
     </BrowserRouter>
+    </ContextProvider>
+
   );
 }

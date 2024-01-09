@@ -82,6 +82,7 @@
     "query-string": "^8.1.0",
     "react": "16.13.0",
     "react-dom": "16.13.0",
+    "react-feather": "^2.0.10",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "5.2.0",
     "serve": "14.2.0",
