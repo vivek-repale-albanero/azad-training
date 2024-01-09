@@ -1,0 +1,20 @@
+
+.loginCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: teal;
+    .MuiCard-root{
+        background-color: white;
+        width: 30%;
+    }
+    .tile{
+        padding: 75px;
+        .button{
+            margin-top: 25px;
+        }
+    }
+    
+}
+

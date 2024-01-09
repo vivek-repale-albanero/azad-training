@@ -1,0 +1,140 @@
+.theme-classic{
+    --validation_color: #ff5d4d;
+  
+    --primary-button-text: #ffffff;
+    --primary-button-bg: #3189ff;
+    --primary-button-bg-active: #00479c;
+    --primary-button-bg-disabled: #6b6f73;
+  
+    --danger-button-text: #ff1616;
+    --danger-button-bg: transparent;
+    --danger-button-bg-active: #ffe4e4;
+    --danger-button-bg-disabled: #c1c1c1;
+  
+    --secondary-button-text: #3189ff;
+    --secondary-button-text-disabled: #888888;
+    --secondary-button-bg: transparent;
+    --secondary-button-bg-active: #e5e4ff;
+    --secondary-button-bg-disabled: #c1c1c1;
+  
+    --success-button-text: #ffffff;
+    --success-button-text-disabled: #a6a6a6;
+    --success-button-bg: #2e7d32;
+    --success-button-bg-active: #2d603e;
+    --success-button-bg-disabled: #6b6f73;
+  
+    --upload-button-text: #ffffff;
+    --upload-button-text-disabled: #888888;
+    --upload-button-bg: #0097b8;
+    --upload-button-bg-active: #007e7e;
+    --upload-button-bg-disabled: #6b6f73;
+  
+    --done-button-text: #d0f4e8;
+    --done-button-bg: #009769;
+    --failed-button-text: #f4d0d0;
+    --failed-button-bg: #970000;
+    --stopped-button-text: #f4ddd0;
+    --stopped-button-bg: #ce4a00;
+    --default-button-text: #dbdbdb;
+    --default-button-bg: #666666;
+    --inactive-button-text: #dbdbdb;
+    --inactive-button-bg: #666666;
+    --running-button-text: #cce2ff;
+    --running-button-bg: #0049aa;
+    --switch-thumb-on: #3189ff;
+    --switch-bar: #cce2ff;
+  
+  
+    --bg: #f8fafa;
+    --bgModal: #fff;
+    --bg_Modal: #eee;
+    --logo: invert(-1);
+    --text: #334155;
+    --textSecondary: #33415571;
+    --icon: #334155;
+    --invertIcon: #fffffff2;
+    --invertText: #fffffff2;
+    --cardBx: none;
+    --cardHoverBx: unset;
+    --cardBr: 1px solid #c4c4c4;
+    --cardBg: #fff;
+    --sidebarTxt: #fff;
+    --sidebarBG: #1f2937;
+    --sidebarOpener: #fff;
+  
+    --eb_ButtonIcon: #c8ddecdc;
+    --eb_ButtonIconHover: #699ebd;
+  
+    --sidebar_hover: #c8ddecdc;
+    --sidebar_active: #1f2937;
+    --sidebar_invert_text: #ffffff;
+  
+    --inputBorder: 1px solid #d5d5d5;
+    --scrollbarThumb: #6a717b;
+    --popUpOverlay: #7d7d7d99;
+    --placeholderText: #adb3bb;
+    --highlightText: #1f2937;
+  
+    --headerBg: #1f2937;
+    --headerBx: none;
+  
+    /* wrapperComponent */
+    --wC_Border: 1px solid #ffffff30;
+    --navTabSelector: #3c4b64;
+    --wC_CardBx: none;
+  
+    /* OutlinedButton */
+    --oB_Brd: 1px solid #1f2937;
+    --oB_Bx: none;
+    --oB_Text: #1f2937;
+    --oB_Brd_Hover: 1px solid #1f2937;
+  
+    /* OutlinedInput */
+    --oI_Bg: #fff;
+    --oI_Bg_disabled: #0000001f;
+    --oI: #fdfeff;
+  
+    /*suiteTable*/
+    /* --sT_R_Brd: 1px solid #999b9d;
+      --sT_Rh_Bg: #bababa;
+      --sT_Resizer: #999b9d; */
+    /*suiteTable*/
+    --sT_R_Brd: 1px solid #999b9d;
+    --sT_Rh_Bg: #1f2937;
+    --dL_Bg: #1f2937;
+    --sT_Resizer: #999b9d;
+  
+    /* breadCrumbs */
+    --navLink: #00000080;
+  
+    /* active notification */
+    --notif_Active: #2cffef;
+  
+    /* divider color */
+    --divider: #7c8594;
+  
+    --chipBG: #778899;
+  
+    --altRowBG: #fff;
+  
+    --link: rgb(0, 82, 204);
+    --captchaBg: #fff;
+  
+    --searchHighlightBg: rgb(202, 222, 252);
+    --searchHighlightText: #1f2937;
+  
+    --selected_bg: #9c9da0;
+    --selected: #fff;
+  
+    --search_Results_BG: var(--oI_Bg);
+  
+    --hover: #1f293715;
+  
+    --tableRowColor: #dbdee2;
+    --menu_bg: #fff;
+    --validation_color: #b12c2e;
+    --breadcrumb_color: #e4eaf2;
+    --cardBg2: #eaeaea;
+    --cardBg2-invert: #29455b;
+    --color-filter: brightness(0) saturate(100%);
+  }

@@ -1,0 +1,630 @@
+{
+  "users": [
+    {
+      "user": {
+        "userName": "Eswar@0110",
+        "firstName": "Esw",
+        "lastName": "Chandran"
+      },
+      "age": "26",
+      "email": "eswar0110@gmail.com",
+      "password": "eswar1",
+      "Permission": {
+        "csvPermission": {
+          "allow": true,
+          "subModules": {
+            "csvPagePermission": true,
+            "csvEditPermission": true,
+            "csvDownloadPermission": true
+          }
+        },
+        "gamePermission": {
+          "allow": true,
+          "subModules": {
+            "gamePagePermission": true,
+            "gameStartPermission": true,
+            "gameResetPermission": true
+          }
+        },
+        "missing": {
+          "allow": false,
+          "subModules": {}
+        }
+      },
+      "id": 4
+    },
+    {
+      "user": {
+        "userName": "pritamHald@2000",
+        "firstName": "pritam",
+        "lastName": "halder"
+      },
+      "age": "a",
+      "email": "a",
+      "password": "a",
+      "Permission": {
+        "csvPermission": {
+          "allow": true,
+          "subModules": {
+            "csvPagePermission": true,
+            "csvEditPermission": true,
+            "csvDownloadPermission": true
+          }
+        },
+        "gamePermission": {
+          "allow": true,
+          "subModules": {
+            "gamePagePermission": true,
+            "gameStartPermission": true,
+            "gameResetPermission": true
+          }
+        },
+        "missing": {
+          "allow": true,
+          "subModules": {}
+        }
+      },
+      "id": 5
+    },
+    {
+      "user": {
+        "userName": "abi@03891",
+        "firstName": "abi",
+        "lastName": "sheik"
+      },
+      "age": "26",
+      "email": "abishek@gmail.com",
+      "password": "password1",
+      "Permission": {
+        "csvPermission": {
+          "allow": false,
+          "subModules": {
+            "csvPagePermission": false,
+            "csvEditPermission": false,
+            "csvDownloadPermission": false
+          }
+        },
+        "gamePermission": {
+          "allow": false,
+          "subModules": {
+            "gamePagePermission": false,
+            "gameStartPermission": false,
+            "gameResetPermission": false
+          }
+        },
+        "missing": {
+          "allow": false,
+          "subModules": {}
+        }
+      },
+      "id": 6
+    },
+    {
+      "user": {
+        "userName": "praveenSai@#$%",
+        "firstName": "sai",
+        "lastName": "praveen"
+      },
+      "age": "35",
+      "email": "b",
+      "password": "b",
+      "Permission": {
+        "csvPermission": {
+          "allow": false,
+          "subModules": {
+            "csvPagePermission": false,
+            "csvEditPermission": false,
+            "csvDownloadPermission": false
+          }
+        },
+        "gamePermission": {
+          "allow": false,
+          "subModules": {
+            "gamePagePermission": false,
+            "gameStartPermission": false,
+            "gameResetPermission": false
+          }
+        },
+        "missing": {
+          "allow": false,
+          "subModules": {}
+        }
+      },
+      "id": 7
+    },
+    {
+      "user": {
+        "userName": "emma@123",
+        "firstName": "Aja",
+        "lastName": "Emma"
+      },
+      "age": "26",
+      "email": "emma123@gmail.com",
+      "password": "emma123",
+      "Permission": {
+        "csvPermission": {
+          "allow": false,
+          "subModules": {
+            "csvPagePermission": false,
+            "csvEditPermission": false,
+            "csvDownloadPermission": false
+          }
+        },
+        "gamePermission": {
+          "allow": false,
+          "subModules": {
+            "gamePagePermission": false,
+            "gameStartPermission": false,
+            "gameResetPermission": false
+          }
+        },
+        "missing": {
+          "allow": false,
+          "subModules": {}
+        }
+      },
+      "id": 8
+    },
+    {
+      "user": {
+        "userName": "gn zfgrn",
+        "firstName": "fve",
+        "lastName": "bgfnfgn "
+      },
+      "age": "bcb",
+      "email": " nzfg",
+      "password": "b dbf",
+      "Permission": {
+        "csvPermission": {
+          "allow": false,
+          "subModules": {
+            "csvPagePermission": false,
+            "csvEditPermission": false,
+            "csvDownloadPermission": false
+          }
+        },
+        "gamePermission": {
+          "allow": false,
+          "subModules": {
+            "gamePagePermission": false,
+            "gameStartPermission": false,
+            "gameResetPermission": false
+          }
+        },
+        "missing": {
+          "allow": false,
+          "subModules": {}
+        }
+      },
+      "id": 9
+    }
+  ],
+  "Metadata": [
+    {
+      "id": 10,
+      "OrgName": "TechX Solutions",
+      "countryName": "Canada",
+      "stateName": "British Columbia",
+      "city": "Vancouver"
+    },
+    {
+      "id": 11,
+      "OrgName": "Infinite Ideas Inc.",
+      "countryName": "USA",
+      "stateName": "Illinois",
+      "city": "Chicago"
+    },
+    {
+      "id": 12,
+      "OrgName": "Global Innovators",
+      "countryName": "UK",
+      "stateName": "Scotland",
+      "city": "Edinburgh"
+    },
+    {
+      "id": 13,
+      "OrgName": "Future Technologies",
+      "countryName": "Germany",
+      "stateName": "Bavaria",
+      "city": "Munich"
+    },
+    {
+      "id": 14,
+      "OrgName": "NextGen Systems",
+      "countryName": "USA",
+      "stateName": "Massachusetts",
+      "city": "Boston"
+    },
+    {
+      "id": 15,
+      "OrgName": "InnovaTech Inc.",
+      "countryName": "Canada",
+      "stateName": "Quebec",
+      "city": "Montreal"
+    },
+    {
+      "id": 16,
+      "OrgName": "TechSolutions Ltd.",
+      "countryName": "India",
+      "stateName": "Maharashtra",
+      "city": "Mumbai"
+    },
+    {
+      "id": 17,
+      "OrgName": "Futurix Innovations",
+      "countryName": "USA",
+      "stateName": "Washington",
+      "city": "Seattle"
+    },
+    {
+      "id": 18,
+      "OrgName": "SwiftTech Group",
+      "countryName": "Australia",
+      "stateName": "Victoria",
+      "city": "Melbourne"
+    },
+    {
+      "id": 19,
+      "OrgName": "InnovateNow Inc.",
+      "countryName": "USA",
+      "stateName": "Colorado",
+      "city": "Denver"
+    },
+    {
+      "id": 20,
+      "OrgName": "TechWave Solutions",
+      "countryName": "UK",
+      "stateName": "Wales",
+      "city": "Cardiff"
+    },
+    {
+      "id": 21,
+      "OrgName": "FutureGrowth Ltd.",
+      "countryName": "India",
+      "stateName": "Delhi",
+      "city": "New Delhi"
+    },
+    {
+      "id": 22,
+      "OrgName": "Innovative Labs",
+      "countryName": "USA",
+      "stateName": "Texas",
+      "city": "Dallas"
+    },
+    {
+      "id": 23,
+      "OrgName": "GlobalTech Innovations",
+      "countryName": "Canada",
+      "stateName": "Alberta",
+      "city": "Calgary"
+    },
+    {
+      "id": 24,
+      "OrgName": "TechMasters Inc.",
+      "countryName": "USA",
+      "stateName": "Florida",
+      "city": "Orlando"
+    },
+    {
+      "id": 25,
+      "OrgName": "InnovaCorp",
+      "countryName": "UK",
+      "stateName": "Northern Ireland",
+      "city": "Belfast"
+    },
+    {
+      "id": 26,
+      "OrgName": "GlobalTrends Ltd.",
+      "countryName": "Australia",
+      "stateName": "Queensland",
+      "city": "Brisbane"
+    },
+    {
+      "id": 27,
+      "OrgName": "FutureWave Systems",
+      "countryName": "India",
+      "stateName": "Tamil Nadu",
+      "city": "Chennai"
+    },
+    {
+      "id": 28,
+      "OrgName": "TechNexa Solutions",
+      "countryName": "USA",
+      "stateName": "California",
+      "city": "San Diego"
+    },
+    {
+      "id": 29,
+      "OrgName": "InnoVision Tech",
+      "countryName": "Canada",
+      "stateName": "Ontario",
+      "city": "Ottawa"
+    },
+    {
+      "id": 30,
+      "OrgName": "GlobalEdge Innovations",
+      "countryName": "USA",
+      "stateName": "Arizona",
+      "city": "Phoenix"
+    },
+    {
+      "id": 31,
+      "OrgName": "NextInnovate Inc.",
+      "countryName": "UK",
+      "stateName": "England",
+      "city": "Manchester"
+    },
+    {
+      "id": 32,
+      "OrgName": "FutureCraft Ltd.",
+      "countryName": "India",
+      "stateName": "Kerala",
+      "city": "Trivandrum"
+    },
+    {
+      "id": 33,
+      "OrgName": "InnovateIt Solutions",
+      "countryName": "USA",
+      "stateName": "New Jersey",
+      "city": "Jersey City"
+    },
+    {
+      "id": 34,
+      "OrgName": "TechFusion Inc.",
+      "countryName": "Canada",
+      "stateName": "Quebec",
+      "city": "Quebec City"
+    },
+    {
+      "id": 35,
+      "OrgName": "GlobalNexa Tech",
+      "countryName": "Australia",
+      "stateName": "Western Australia",
+      "city": "Perth"
+    },
+    {
+      "id": 36,
+      "OrgName": "FuturePath Systems",
+      "countryName": "USA",
+      "stateName": "Colorado",
+      "city": "Colorado Springs"
+    },
+    {
+      "id": 37,
+      "OrgName": "InnoSolutions Ltd.",
+      "countryName": "UK",
+      "stateName": "Scotland",
+      "city": "Glasgow"
+    },
+    {
+      "id": 38,
+      "OrgName": "TechGenius Innovations",
+      "countryName": "India",
+      "stateName": "Gujarat",
+      "city": "Ahmedabad"
+    },
+    {
+      "id": 39,
+      "OrgName": "FutureFusion Inc.",
+      "countryName": "USA",
+      "stateName": "Illinois",
+      "city": "Springfield"
+    },
+    {
+      "id": 40,
+      "OrgName": "GlobalSolve Tech",
+      "countryName": "Canada",
+      "stateName": "British Columbia",
+      "city": "Victoria"
+    },
+    {
+      "id": 41,
+      "OrgName": "InnovateX Inc.",
+      "countryName": "Australia",
+      "stateName": "New South Wales",
+      "city": "Newcastle"
+    },
+    {
+      "id": 42,
+      "OrgName": "TechSynergy Solutions",
+      "countryName": "India",
+      "stateName": "Andhra Pradesh",
+      "city": "Hyderabad"
+    },
+    {
+      "id": 43,
+      "OrgName": "FutureTech Innovations",
+      "countryName": "USA",
+      "stateName": "Washington",
+      "city": "Spokane"
+    },
+    {
+      "id": 44,
+      "OrgName": "GlobalInnova Labs",
+      "countryName": "Canada",
+      "stateName": "Alberta",
+      "city": "Edmonton"
+    },
+    {
+      "id": 45,
+      "OrgName": "NextWave Tech",
+      "countryName": "UK",
+      "stateName": "Wales",
+      "city": "Swansea"
+    },
+    {
+      "id": 46,
+      "OrgName": "InnovateItNow Inc.",
+      "countryName": "India",
+      "stateName": "Tamil Nadu",
+      "city": "Coimbatore"
+    },
+    {
+      "id": 47,
+      "OrgName": "TechNexa Innovations",
+      "countryName": "USA",
+      "stateName": "California",
+      "city": "San Jose"
+    },
+    {
+      "id": 48,
+      "OrgName": "FutureGrowth Systems",
+      "countryName": "Canada",
+      "stateName": "Ontario",
+      "city": "Hamilton"
+    },
+    {
+      "id": 49,
+      "OrgName": "GlobalTech Corp",
+      "countryName": "Australia",
+      "stateName": "Queensland",
+      "city": "Gold Coast"
+    },
+    {
+      "id": 50,
+      "OrgName": "TechMasters Innovate",
+      "countryName": "USA",
+      "stateName": "Arizona",
+      "city": "Tucson"
+    },
+    {
+      "id": 51
+    },
+    {
+      "id": 52
+    },
+    {
+      "id": 53
+    }
+  ],
+  "itemdata": [
+    {
+      "id": 1,
+      "label": "Option1"
+    },
+    {
+      "id": 2,
+      "label": "Option2"
+    },
+    {
+      "id": 3,
+      "label": "Option3"
+    }
+  ],
+  "sampleData": [
+    {
+      "id": 1,
+      "userName": "a",
+      "firstName": "Pritam",
+      "lastName": "Halder"
+    },
+    {
+      "id": 2,
+      "userName": "b",
+      "firstName": "Easwar",
+      "lastName": "M"
+    },
+    {
+      "id": 3,
+      "userName": "c",
+      "firstName": "Shoabe",
+      "lastName": "fncrbu"
+    },
+    {
+      "id": 4,
+      "userName": "d",
+      "firstName": "Anubhav",
+      "lastName": "Nayak"
+    },
+    {
+      "id": 5,
+      "userName": "e",
+      "firstName": "Pritam",
+      "lastName": "Halder"
+    },
+    {
+      "id": 6,
+      "userName": "f",
+      "firstName": "Easwar",
+      "lastName": "M"
+    },
+    {
+      "id": 7,
+      "userName": "g",
+      "firstName": "Shoabe",
+      "lastName": "fncrbu"
+    },
+    {
+      "id": 8,
+      "userName": "h",
+      "firstName": "Anubhav",
+      "lastName": "Nayak"
+    },
+    {
+      "id": 9,
+      "userName": "i",
+      "firstName": "Pritam",
+      "lastName": "Halder"
+    },
+    {
+      "id": 11,
+      "userName": "k",
+      "firstName": "Pritam",
+      "lastName": "Halder"
+    },
+    {
+      "id": 12,
+      "userName": "l",
+      "firstName": "Easwar",
+      "lastName": "M"
+    },
+    {
+      "id": 13,
+      "userName": "m",
+      "firstName": "Shoabe",
+      "lastName": "fncrbu"
+    },
+    {
+      "id": 14,
+      "userName": "n",
+      "firstName": "Anubhav",
+      "lastName": "Nayak"
+    },
+    {
+      "id": 15,
+      "userName": "o",
+      "firstName": "Pritam",
+      "lastName": "Halder"
+    },
+    {
+      "id": 16,
+      "userName": "p",
+      "firstName": "Easwar",
+      "lastName": "M"
+    },
+    {
+      "id": 17,
+      "userName": "q",
+      "firstName": "Shoabe",
+      "lastName": "fncrbu"
+    },
+    {
+      "id": 18,
+      "userName": "r",
+      "firstName": "Anubhav",
+      "lastName": "Nayak"
+    },
+    {
+      "id": 19,
+      "userName": "s",
+      "firstName": "Anubhav",
+      "lastName": "Nayak"
+    },
+    {
+      "id": 20,
+      "userName": "t",
+      "firstName": "Anubhav",
+      "lastName": "Nayak"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+
+.sidebar{
+    
+    .MuiPaper-root{
+        width: 15%;
+    }
+    .MuiCard-root{
+        width: 100%;
+    }
+    .userCard{
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        // .MuiPaper-root{
+            //     background-color: teal;
+    // }
+    .userInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .logoutBtn{
+            background-color: #c00000;
+            color: white;
+            &:hover{
+                background-color: #970000;
+                border-color: #970000;
+                cursor: pointer;
+            }
+        }
+        // div{
+            //     color: white;
+            // }
+        }
+        
+    }
+}
+    

@@ -1,0 +1,35 @@
+#mount{
+    .MuiTab-wrapper, .MuiButton-label{
+        text-transform: none;
+    }
+
+    // .MuiTabs-root {
+    //     min-height: 36px;
+    // }
+    .MuiAppBar-colorPrimary {
+        background-color: #505050;
+    }
+    .MuiIconButton-root{
+        padding: 4px;
+    }
+
+    // r-suite table
+    .rs-table-row-header {
+        font-weight: 600;
+    }
+    .rs-table-row-header .rs-table-cell {
+        background: #f6f6f6;
+    }
+    .rs-table-cell-content {
+        padding: 4px;
+    }
+    .MuiCard-root{
+        background-color: teal;
+    }
+    // .MuiPaper-root{
+    //     background-color: teal;
+    // }
+    // .rs-table-row{
+    //     height: 34px;
+    // }
+}

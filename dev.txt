@@ -1,0 +1,69 @@
+ const { selection, startText } = editor;
+        console.log(startText, 'STARTUB');
+        // anchor,offset - start and stoping point of selection, in normal case both are same
+        //isCollapsed - verifies if they are same
+        console.log("Selecttion-",selection, Range.isCollapsed(selection))
+        if (selection && Range.isCollapsed(selection)) {
+          const [start] = Range.edges(selection);
+          //above returns start and end points of selection
+          console.log("Start",start)
+
+          const wordBefore = Editor.before(editor, start, { unit: 'word' });
+          console.log("beforeWord", wordBefore)
+        //   Above method give access to last word from start of selection / cursor
+          const before = wordBefore && Editor.before(editor, wordBefore);
+          console.log("before-beforeWord", before)
+
+          const beforeRange = before && Editor.range(editor,  wordBefore || {
+            "path": [
+                0,
+                0
+            ],
+            "offset": 0
+        }, start);
+          console.log("before-range", beforeRange)
+          
+          const beforeText = beforeRange && Editor.string(editor, beforeRange);
+          console.log("before-text", beforeText)
+
+          const pattern = /\b(SELECT|FROM|WHERE|GROUP BY|HAVING|ORDER BY|JOIN|INNER JOIN|LEFT JOIN|RIGHT JOIN|FULL OUTER JOIN|UNION|DISTINCT|LIMIT|OFFSET|AS|IN|NOT IN|LIKE|NOT LIKE|BETWEEN|NOT BETWEEN|IS NULL|IS NOT NULL|COUNT|SUM|AVG|MAX|MIN)\b/i;
+          const beforeMatch = beforeText && beforeText.match(pattern);
+          // const beforeMatch = true
+
+          console.log(beforeMatch);
+
+          const after = Editor.after(editor, start);
+          const afterRange = Editor.range(editor, start, after);
+          const afterText = Editor.string(editor, afterRange);
+          const afterMatch = afterText.match(/^(\s|$)/);
+
+        //   console.log("," +beforeText +"," + afterText)
+        // console.log(beforeMatch, afterMatch)
+
+          if (beforeMatch && afterMatch) {
+            setTarget(beforeRange);
+            setSearch(beforeMatch[1]);
+            setIndex(0);
+            return;
+          }
+        }
+        setTarget(null);
+
+
+
+1. Performance not up to mark till now, he will have to put in more efforts.
+2. Struggling with ease to medium tasks, missed few deadlines.
+3. As he is spending 4 hours daily in coming and going to office, this is severely impacting 
+his performance. Not able to give any dedicated extra time after office times till now.
+4. He should focus on understanding given requirement before hand, clarifying all his doubts before
+writing first line of code. This will stop unnecessary back and forth modifications cycle towards end of task.
+5. As a UI developer, he should understand that any small screen that he will be building is going to
+impact user experience.
+
+Core principles of Albanero -
+1. Customer First.
+2. Automation.
+3. Empathy.
+
+
+
