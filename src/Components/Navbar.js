@@ -1,26 +1,56 @@
-import React, { useContext, useState } from 'react'
-import {AppBar,Toolbar,Box,Typography,Button,IconButton, Icon} from "@platform/service-ui-libraries";
-import { Home, ShoppingCart } from 'react-feather';
-import { Context } from './Context';
-import { Badge } from '@material-ui/core';
-
+import React, { useContext, useState } from "react";
+import "./Navbar.scss"
+import {
+  AppBar,
+  Box,
+  Button,
+  Drawer,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+  Toolbar,
+} from "@platform/service-ui-libraries";
+import { Archive, FilePlus, Home, Menu, ShoppingCart } from "react-feather";
+import { Context } from "./Context";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const {cart,setSwap}=useContext(Context)
-  return (
-    <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static">
-          <Toolbar className="navbar">
-            <Button onClick={()=>setSwap(true)}  >
-              <Home/>{" "} Home
-            </Button>
-            <Button onClick={()=>setSwap(false)}   color="inherit">
-              <ShoppingCart />{" "} Cart{ cart.length>0 && (<Badge>({cart.length})</Badge>)}
-            </Button>
-          </Toolbar>
-        </AppBar>
-      </Box>
-  )
-}
 
-export default Navbar
+  const {sidebarWidth, setSidebarWidth}=useContext(Context)
+  const toggleSidebar = () => {
+    setSidebarWidth(!sidebarWidth);
+  };
+
+  return (
+    <>
+      <AppBar className="sidebar" style={{ width: sidebarWidth ? '3%' : '10%', left: 0 }}>
+        <Toolbar>
+          <Button style={{marginLeft:"-1rem"}} onClick={toggleSidebar}><Menu/></Button>
+        </Toolbar>
+        <Box className="navbar">
+          <Link to="/" className="sidebar-link">
+            <Button>
+              <Home />{!sidebarWidth ? <span>Home</span>:""}
+            </Button>
+          </Link>
+          <Link to="/add" className="sidebar-link">
+            <Button color="inherit">
+              <FilePlus /> {!sidebarWidth ? <span>Add Products</span>:""}
+            </Button>
+          </Link>
+          <Link to="/brand" className="sidebar-link">
+            <Button color="inherit">
+              <Archive /> {!sidebarWidth ? <span>Brands</span>:""}
+            </Button>
+          </Link>
+        </Box>
+      </AppBar>
+      <div className="content" style={{ marginLeft: sidebarWidth ? '5%' : '10%', paddingLeft: '20px' }}>
+        {/* Your main content goes here */}
+      </div>
+    </>
+  );
+};
+
+export default Navbar;

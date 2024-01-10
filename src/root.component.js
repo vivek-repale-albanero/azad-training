@@ -4,6 +4,8 @@ import { CssBaseline } from "@material-ui/core";
 import LoginPage from "./Pages/LoginPage/LoginPage";
 import Navbar from "./Components/Navbar";
 import { ContextProvider } from "./Components/Context";
+import AddProduct from "./Components/AddProduct";
+import Brands from "./Components/Brands";
 
 export default function Root() {
   return (
@@ -16,9 +18,11 @@ export default function Root() {
                   
           <Switch>
             <Route exact path="/" render={()=><LoginPage/>}/>
+            <Route exact path="/add" render={()=><AddProduct/>}/>
+            <Route exact path="/brand" render={()=><Brands/>}/>
+
         
-        
-            <Route exact path="/auth/login" render={() => <LoginPage />} />
+            {/* <Route exact path="/auth/login" render={() => <LoginPage />} /> */}
             {/* <Route exact path="/home" render={() => <HomePage />} />
             <Route
               exact

@@ -14,6 +14,7 @@
     "prepare": "husky install",
     "coverage": "cross-env BABEL_ENV=test jest --coverage",
     "start": "webpack-dev-server --mode=development --port 3005 --host 0.0.0.0",
+    "server":"json-server --watch db.json --port 8080",
     "serve": "node server.js",
     "deploy": "npm install && npm run build && npm run serve",
     "build": "webpack --mode=production"
