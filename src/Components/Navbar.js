@@ -45,10 +45,7 @@ const Navbar = () => {
             </Button>
           </Link>
         </Box>
-      </AppBar>
-      <div className="content" style={{ marginLeft: sidebarWidth ? '5%' : '10%', paddingLeft: '20px' }}>
-        {/* Your main content goes here */}
-      </div>
+      </AppBar>     
     </>
   );
 };

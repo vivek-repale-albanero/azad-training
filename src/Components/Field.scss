@@ -1,0 +1,75 @@
+.owners-container {
+  border: 2px solid gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  // padding-bottom: 0rem;
+  h3{
+    margin-top: -1.8rem;
+   
+  }
+}
+
+.addowner {
+    color: white;
+    background-color: rgb(0, 153, 255);
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    border: none;
+}
+.chan{
+    width:150px;
+    margin-bottom: -2rem;
+}
+.owner {
+   
+    margin: 2rem;
+  
+    label {
+      display: block;
+      margin-bottom: 8px; 
+      font-weight: bold; 
+    }
+  
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box; 
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      outline: none; 
+    }
+  
+    .btn {
+        color: white;
+        background-color: red;
+        font-weight: bolder;
+        border-radius: 0.5rem;
+        font-size: 0.7rem;
+        line-height: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        cursor: pointer;
+        text-align: center;
+        margin-right: 0.5rem;
+        display: inline-flex;
+        align-items: center;
+        border: none;
+    }
+  }
+  

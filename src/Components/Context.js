@@ -10,9 +10,15 @@ export function ContextProvider({ children }) {
   function addToCart(data) {
     let extisting = cart.findIndex((obj) => obj.id === data.id);
     if (extisting !== -1) {
+      
       const updatedCart = [...cart];
+      if(updatedCart[extisting].stock===0){
+        return alert("Out Of The Stock")
+      }
       updatedCart[extisting].quantity += 1;
       updatedCart[extisting].stock -= 1;
+      setSwap(!swap);
+
     } else {
       setCart([...cart, { ...data, stock: data.stock - 1 }]);
     }
@@ -24,6 +30,8 @@ export function ContextProvider({ children }) {
     updatedCart[existingIndex].quantity += 1;
     updatedCart[existingIndex].stock -= 1;   
     setCart(updatedCart);
+    setSwap(!swap);
+
   }
   function DecreaseQuantity(id) {
     const existingIndex = cart.findIndex((obj) => obj.id === id);
@@ -33,6 +41,7 @@ export function ContextProvider({ children }) {
     }
     updatedCart[existingIndex].quantity -= 1;
     updatedCart[existingIndex].stock += 1;   
+    setSwap(!swap);
 
     setCart(updatedCart);
   }

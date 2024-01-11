@@ -15,7 +15,7 @@
       ],
       "description": "Trainers in imitation leather with a contrasting colour heel cap. Padded top edge and a tongue and lacing at the front. Linings and insoles in piqu and rubber soles that are patterned underneath.",
       "category": "Men's Footwear",
-      "brand": "H&M",
+      "brand": "Technosport",
       "color": "white",
       "discount": "12% OFF",
       "off_off_price": 1499,
@@ -26,7 +26,9 @@
       },
       "rating": 4.5,
       "count": 40,
-      "stock": 0
+      "stock": "10",
+      "undefined": 0,
+      "createdAt": 1704974647617
     },
     {
       "id": 2,
@@ -43,7 +45,7 @@
       ],
       "description": "Long-sleeved hoodie in soft sweatshirt fabric with a kangaroo pocket, double-layered drawstring hood with a wrapover front, and ribbing at the cuffs and hem.",
       "category": "Men's Clothing",
-      "brand": "H&M",
+      "brand": "Allen Solly",
       "color": "pink",
       "discount": "8% OFF",
       "off_off_price": 1399,
@@ -55,7 +57,8 @@
       },
       "rating": 4.6,
       "count": 57,
-      "stock": 0
+      "stock": 0,
+      "createdAt": 1704974677065
     },
     {
       "id": 3,
@@ -122,7 +125,7 @@
       "title": "Pure Cotton T-shirt",
       "size": "S",
       "off_off_price": "Rs. 199",
-      "off_price": "Rs. 499",
+      "off_price": 499,
       "discount": "(60% OFF)",
       "id": 5,
       "quantity": 1,
@@ -133,7 +136,9 @@
         "image3": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2275365/2022/11/22/3e26079d-8ceb-46cd-a8f9-715fbbcc9f091669105782337-Roadster-Men-White--Pure-Cotton-T-shirt-7301669105781913-5.jpg",
         "image4": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2275365/2022/11/22/a3af8a2f-a385-4cb7-bf7b-e34e0925fe0d1669105782439-Roadster-Men-White--Pure-Cotton-T-shirt-7301669105781913-1.jpg"
       },
-      "stock": 4
+      "stock": 4,
+      "": "hue",
+      "createdAt": 1704974244008
     },
     {
       "id": 6,
@@ -624,7 +629,7 @@
         "image3": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/21793822/2023/2/1/ac77d278-219f-425c-b3e9-f14289fb34c51675244252189TechnosportMenBayLeafTshirt4.jpg",
         "image4": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/21793822/2023/2/1/3d7056cd-95af-4b92-8571-a37e0454cf1a1675244252222TechnosportMenBayLeafTshirt5.jpg"
       },
-      "stock": 4
+      "stock": 0
     },
     {
       "rating": "3.5",
@@ -888,29 +893,6 @@
     },
     {
       "brand": "flipkart",
-      "stock": "10",
-      "price": "10000",
-      "title": "Canoon",
-      "images": {
-        "images1": "https://media.istockphoto.com/id/1437990859/photo/abandoned-shopping-cart-with-groceries.webp?b=1&s=170667a&w=0&k=20&c=XvePluej28Yq1fdv4qeQPxA91b-SJbrjuTqM_P9RlDc="
-      },
-      "quantity": 1,
-      "id": 36
-    },
-    {
-      "brand": "flipkart",
-      "stock": 9,
-      "price": "20000",
-      "title": "Yu",
-      "images": {
-        "image1": "https://media.istockphoto.com/id/1437990859/photo/abandoned-shopping-cart-with-groceries.webp?b=1&s=170667a&w=0&k=20&c=XvePluej28Yq1fdv4qeQPxA91b-SJbrjuTqM_P9RlDc="
-      },
-      "quantity": 1,
-      "off_price": "20000",
-      "id": 37
-    },
-    {
-      "brand": "flipkart",
       "stock": "5",
       "price": "1000",
       "title": "Shoes",
@@ -932,16 +914,26 @@
       "quantity": 1,
       "off_price": "1000",
       "id": 39
+    },
+    {
+      "brand": "alba",
+      "stock": "78",
+      "price": "5655",
+      "title": "INFOR",
+      "images": {
+        "image1": "https://media.istockphoto.com/id/1437990859/photo/abandoned-shopping-cart-with-groceries.webp?b=1&s=170667a&w=0&k=20&c=XvePluej28Yq1fdv4qeQPxA91b-SJbrjuTqM_P9RlDc="
+      },
+      "quantity": 1,
+      "off_price": "5655",
+      "createdAt": 1704966705923,
+      "id": 40
     }
   ],
   "brands": [
     {
-      "id": 1,
-      "name": "H&M"
-    },
-    {
       "id": 2,
-      "name": "Roadster"
+      "name": "Roadsters",
+      "createdAt": 1704973340591
     },
     {
       "id": 3,
@@ -1018,6 +1010,21 @@
     {
       "name": "Rizwan",
       "id": 21
+    },
+    {
+      "name": "Boat",
+      "createdAt": 1704965981258,
+      "id": 22
+    },
+    {
+      "name": "Albanero",
+      "createdAt": 1704966677623,
+      "id": 23
+    },
+    {
+      "name": "asndbjasd",
+      "createdAt": 1704974781595,
+      "id": 24
     }
   ]
 }
